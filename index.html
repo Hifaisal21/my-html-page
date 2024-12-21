@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Mastery Course</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff; /* White background */
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    /* Title Box Styling */
+    .title-box {
+      margin: 10px 0;
+      padding: 15px;
+      background: #fff;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      font-size: 24px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Unique Animations */
+    .title-box:nth-child(1) {
+      color: #007bff;
+      animation: bounce 2s infinite;
+    }
+
+    .title-box:nth-child(2) {
+      color: #28a745;
+      animation: slideCenter 3s infinite alternate; /* Center effect */
+    }
+
+    .title-box:nth-child(3) {
+      color: #ff5722;
+      animation: fadeIn 3s infinite alternate; /* Fade effect */
+    }
+
+    .title-box:nth-child(4) {
+      color: #ff3d00;
+      animation: bounce 2s infinite; /* Ek jagah hilne wala effect */
+    }
+
+    .image-container {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #ff3d00;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .btn:hover {
+      background: #cc2e00;
+      transform: scale(1.05);
+    }
+
+    .course-details {
+      margin: 20px 0;
+      padding: 15px;
+      background: #f0fff4;
+      border-left: 5px solid #28a745;
+      border-radius: 5px;
+      color: #28a745;
+      font-size: 18px;
+    }
+
+    .motivational-text {
+      margin: 20px 0;
+      padding: 15px;
+      background: #e7f3ff;
+      border-left: 5px solid #007bff;
+      border-radius: 5px;
+      color: #007bff;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .contact-email {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #007bff;
+    }
+
+    .contact-email a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-email a:hover {
+      text-decoration: underline;
+    }
+
+    /* Animation Effects */
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    @keyframes slideCenter {
+      0% {
+        transform: translateX(-20px);
+      }
+      100% {
+        transform: translateX(20px);
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0.6;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Title 1 -->
+    <div class="title-box">₹99 रुपए में यूट्यूब से कमाई का सीक्रेट जाने</div>
+
+    <!-- Title 2 with Center Slide Effect -->
+    <div class="title-box">₹1000 का कोर्स ₹99 रुपए में, सिर्फ आपके लिए, मौका न छोड़ें</div>
+
+    <!-- Image Section -->
+    <div class="image-container">
+      <img src="https://assets.onecompiler.app/432x9d5t2/433b3ja5f/1000106350.jpg" alt="YouTube Course Banner">
+    </div>
+    <!-- Title 3 with Fade Effect -->
+    <div class="title-box">यह ऑफर सीमित समय के लिए है, जल्दी करें!</div>
+
+    <!-- Title 4 with Bounce Effect -->
+    <div class="title-box">यह कोर्स आपकी जिंदगी बदल देगा, एक बार जरूर खरीदें</div>
+    
+    <!-- Purchase Button with UPI ID -->
+    <a href="upi://pay?pa=mohdikram706@axl&pn=YouTube Course&am=99&cu=INR&tn=YouTube Course Payment" class="btn">अभी खरीदें</a>
+
+    <!-- Course Details -->
+    <div class="course-details">
+      इस कोर्स में आप सीखेंगे:<br>
+      ✔ यूट्यूब चैनल कैसे सेटअप करें<br>
+      ✔ वीडियो वायरल करने के राज<br>
+      ✔ SEO और ट्रैफिक बढ़ाने की रणनीतियां<br>
+      ✔ यूट्यूब से पैसे कमाने के तरीके
+    </div>
+
+    <!-- Motivational Text -->
+    <div class="motivational-text">
+      "आपकी मेहनत आपका भविष्य बदल सकती है। सही समय पर सही निर्णय लीजिए।"<br>
+      🎯 आज शुरुआत करें, क्योंकि मौका बार-बार नहीं आता!
+    </div>
+
+    <!-- Contact Email -->
+    <div class="contact-email">
+      Contact Email: 
+      <a href="mailto:everyday66464@gmail.com?subject=Course Inquiry&body=नमस्ते!%0A%0Aहमने आपका कोर्स ऑर्डर प्राप्त कर लिया है। आपके द्वारा ₹99 की राशि पे करने के बाद, हम आपको यह कोर्स 1 घंटे के भीतर भेज देंगे।%0A%0Aयह कोर्स आपके यूट्यूब करियर को नई ऊंचाइयों पर ले जाने में मदद करेगा। यह कोर्स आपको सिखाएगा कि कैसे चैनल सेटअप करें, वीडियो वायरल करें, और SEO की मदद से ट्रैफिक बढ़ाएं।%0A%0Aआपके उज्जवल भविष्य के लिए शुभकामनाएं!%0A%0Aधन्यवाद,%0AYouTube Mastery Team">✉️ everyday66464@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
